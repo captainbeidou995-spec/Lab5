@@ -127,7 +127,6 @@ void task29(void) {
     printf("Task 29\n");
     double a[100];
     int n, i;
-    double prev, current;
     int incr = 1;   
 
     do {
@@ -228,14 +227,14 @@ void task127(void) {
         }
     }
 
-    if (neg > 0) {
+    if (neg == 1) {
         printf("Product of negative elements (P1) = %.2lf\n", p1);
     }
     else {
         printf("There are no negative elements.\n");
     }
 
-    if (pos > 0) {
+    if (pos == 1) {
         printf("Product of positive elements (P2) = %.2lf\n", p2);
     }
     else {
